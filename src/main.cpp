@@ -7,16 +7,18 @@ void setup() {
     Serial.begin(9600);
 }
 
-/*
-void loop() {
-    /*myServo.write(0);
+
+void loop()
+{
+    myServo.write(0);
     delay(1000);
     myServo.write(90);
     delay(1000);
     myServo.write(120);
     delay(1000);
     myServo.write(180);
-    delay(1000);*/
+    delay(1000);
+}
 
 
  /*   for(int i = 0; i <= 180; i++) {
